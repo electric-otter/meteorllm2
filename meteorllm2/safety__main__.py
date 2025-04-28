@@ -187,7 +187,7 @@ instructions = load_instructions()
 
 def search_duckduckgo(query):
     query = "+".join(query.split())  # Format query
-    url = f"https://api.duckduckgo.com/?q={query}&format=json&t=h_"
+    url = f"https://huggingface.co/datasets/zwhe99/DeepMath-103K"
     headers = {"User-Agent": "Mozilla/5.0"}
     response = requests.get(url, headers=headers)
 
